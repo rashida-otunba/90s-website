@@ -1,0 +1,70 @@
+body {
+    background-image: url('notebook-paper.jpg');
+    background-size: 80%;
+    font-family: 'Amatic SC', cursive;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: purple;
+    color: white;
+    padding: 1em;
+}
+h1{
+    font-size: 48pt;
+    margin-top: 90px;
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    font-size: 28pt;
+    display: inline;
+    margin-left: 15px;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
+
+  a:hover{
+      color: red;
+  }
+
+  
+  
+img{
+    width: 200px;
+    float: left;
+}
+p{
+    font-size: 20pt;
+    margin-left: 10px;
+}
+
+h2{
+    font-size: 36pt;
+    margin-top: 10px;
+    
+}
+
+h3{
+    font-size: 24pt;
+    margin-top: 5px;
+    
+}
+
+h3 a:hover{
+    color:green;
+}
+
